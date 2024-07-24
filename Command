@@ -1,0 +1,21 @@
+git --version
+mkdir [folder_name]
+cd [folder_name]
+git init
+git status
+git log
+git log --oneline
+git show [commit_id]
+git log --author="[author_name]" --since="[start_date]" --until="[end_date]"
+git checkout [branch_name]
+git stash
+git stash apply [stash@{index}]
+git stash pop
+git cherry-pick [commit_hash]
+git clone [repository_url]
+git fetch origin
+git rebase origin/[branch_name]
+git push origin [branch_name] --force
+git tag [tag_name]
+git tag
+git show [tag_name]
